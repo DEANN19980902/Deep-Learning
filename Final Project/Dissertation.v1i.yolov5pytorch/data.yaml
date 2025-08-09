@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 15
+names: ['Polyps', 'blood', 'blur', 'bubbles', 'color misalignment', 'contrast', 'instrument', 'saturation', 'specularity', 'ulcerative-colitis', 'ulcerative-colitis-grade-0-1', 'ulcerative-colitis-grade-1', 'ulcerative-colitis-grade-1-2', 'ulcerative-colitis-grade-2-3', 'ulcerative-colitis-grade-3']
+
+roboflow:
+  workspace: levyn-khs
+  project: dissertation-waein
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/levyn-khs/dissertation-waein/dataset/1
